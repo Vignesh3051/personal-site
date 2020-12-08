@@ -1,0 +1,233 @@
+a:hover
+{
+    text-decoration: none!important;
+    color: lavender!important;
+}
+/* NAVBAR */
+.navbar
+{
+    background-color: #000;
+}
+.nav-link
+{
+    color: gray;
+    transition: 0.52s;
+}
+.navbar-brand
+{
+    color: lavender;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem!important;
+}
+.nav-item
+{
+    padding: 0% 15px;
+}
+.nav-link:hover
+{
+    color: lavender!important;
+}
+ 
+/* title */
+ #title
+ {
+    background-color: #000;
+    color: white;
+    
+ }
+ .title-sec
+ {
+    padding: 15% 15%;
+    
+ }
+
+.title-pic
+{
+  width: 250px;
+  height: 250px;
+}
+/* ABOUT */
+#about
+{
+    text-align: center;
+    padding: 6% 10%;
+}
+#about p, h2
+{
+    
+    width: 60%;
+    margin: 0 auto 0 auto;
+    /* line-height: 1.2; */
+    text-align: justify;
+}
+#about p
+{
+    color: gray;
+    padding-bottom: 1.5%;
+}
+#about h2
+{
+    padding-top: 3%;
+}
+.pad
+{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+/* ACADEMICS */
+#academics
+{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.carousel-item
+{
+    padding: 10% 15%;
+}
+#academics h1
+{
+    padding-bottom: 10%;
+}
+#academics p
+{
+    color: gray;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.sig-img
+{
+    text-align: center;
+    background-color: #000;
+}
+.signature-pic
+{
+    width: 200px;
+}
+.edu
+{
+    text-align: center;
+    padding-bottom: 70px;
+}
+/* PROJECTS */
+#projects
+{
+    padding: 7%;
+}
+.card
+{
+    margin: 0 auto;
+    text-align: justify;
+}
+#projects p
+{
+    color: gray;
+}
+#projects h1
+{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 0px;
+}     
+.spa
+{
+    color:dodgerblue;
+}
+
+/* CONTACT */
+#contact
+{
+    background-color:#000;
+    padding: 4% 15%;
+    color: #fff;
+    text-align: center;
+}
+.contact-link
+{
+    color:#fff;
+    padding: 10px 10px;
+    transition: 0.52s;
+}
+.ques
+{
+    padding-bottom: 15px;
+}
+#contact p{
+    padding-top: 20px;
+}
+.contact-link:hover
+{
+    color: dodgerblue!important;
+}
+.mail
+{
+    display: inline-block;
+}
+/* .container-fluid{
+    padding: 2% 15%;
+    margin: auto 2%;
+  } */
+  /* MEDIA_QUERIES */
+  @media (max-width: 900px)
+  {
+      #about h1
+      {
+          font-size: 1.9rem;
+      }
+      .title-pic
+      {
+          margin-top: 30px  ;
+      }
+      .edu, #about h2, #academics h1, h4
+      {
+        font-size: 1.5rem;
+      }
+      #projects h1
+      {
+        font-size: 1.65rem;
+        padding-top: 50px;
+      }
+      .carousel-item
+      {
+        padding: 10% 2%;
+      }
+  }
+@media(min-width: 900px)
+{
+    .card-img
+    {
+        height: 207px;
+    }
+}
+@media (max-width: 400px)
+{
+    #about h1
+      {
+          font-size: 1rem;
+      }
+      .title-pic
+      {
+          margin-top: 30px  ;
+          width: 175px;
+          height: 175px;
+      }
+      .edu, #about h2, #academics h1, h4
+      {
+        font-size: 1rem;
+      }
+      #projects h1
+      {
+        font-size: 1rem;
+        padding-top: 50px;
+      }
+      .carousel-item
+      {
+        padding: 10% 0%;
+      }
+}
+.card:hover
+{
+   background-color: rgba(0, 0,0, 0.1);
+}
